@@ -33,7 +33,7 @@ export default function Contact() {
             <Card className="bg-card/50 backdrop-blur-sm border border-primary/10 shadow-2xl shadow-primary/5 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-primary/20 hover:-translate-y-2">
                 <div className="p-8 text-center">
                     <Avatar className="w-32 h-32 mx-auto mb-6 border-4 border-primary/20 shadow-lg">
-                        <AvatarImage src="https://placehold.co/128x128/6545b6/FFFFFF.png" alt="Faculty Advisor" data-ai-hint="professional portrait woman" />
+                        <AvatarImage src="https://github.com/faskey37/My-Portfolio/blob/main/WhatsApp%20Image%202025-08-26%20at%2009.39.23_714de146.jpg?raw=true" alt="Faculty Advisor" data-ai-hint="professional portrait woman" />
                         <AvatarFallback>FA</AvatarFallback>
                     </Avatar>
                     <h3 className="font-headline text-2xl font-bold text-foreground">Prof. Faculty Advisor</h3>

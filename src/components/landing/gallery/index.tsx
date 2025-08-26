@@ -3,12 +3,12 @@ import { Card } from "@/components/ui/card"
 import { MotionDiv } from "@/components/shared/motion-div"
 
 const galleryImages = [
-  { src: "https://placehold.co/600x400.png", alt: "Event photo 1", aiHint: "students conference" },
-  { src: "https://placehold.co/400x600.png", alt: "Event photo 2", aiHint: "coding workshop" },
-  { src: "https://placehold.co/600x400.png", alt: "Event photo 3", aiHint: "group presentation" },
-  { src: "https://placehold.co/600x400.png", alt: "Event photo 4", aiHint: "guest lecture" },
-  { src: "https://placehold.co/400x600.png", alt: "Event photo 5", aiHint: "award ceremony" },
-  { src: "https://placehold.co/600x400.png", alt: "Event photo 6", aiHint: "networking event" },
+  { src: "https://media.istockphoto.com/id/1149476601/vector/business-training.jpg?s=612x612&w=0&k=20&c=h6nemE5bw8de3mx-S6p3fV8_TQ9_cDRx0fOYsXdJ9Kg=", alt: "Event photo 1", aiHint: "students conference" },
+  { src: "https://media.istockphoto.com/id/1148587411/vector/programming-office-with-developers-and-notebook.jpg?s=612x612&w=0&k=20&c=B95wykd4xtugFBUcwdfDop0XemyLgrTfyDsv6aogu4k=", alt: "Event photo 2", aiHint: "coding workshop" },
+  { src: "https://media.istockphoto.com/id/1184658011/vector/people-at-the-seminar-presentation-conference-vector-illustration-business-training-coaching.jpg?s=612x612&w=0&k=20&c=2bUGH65MYIvfMToFtaJrvpbxowMlLiLeNiumyJJvkPM=", alt: "Event photo 3", aiHint: "group presentation" },
+  { src: "https://media.istockphoto.com/id/1265168796/vector/coach-speaking-before-audience.jpg?s=612x612&w=0&k=20&c=6CYp-VLgHVxCSAlZJZt6RyhFWoq5FH4P7dsblqXoIMw=", alt: "Event photo 4", aiHint: "guest lecture" },
+  { src: "https://media.istockphoto.com/id/1487552641/vector/confident-man-speaker-talking-before-audience-at-conference.jpg?s=612x612&w=0&k=20&c=ptIeO0gOr2oHxBHRvW7jinoiEFMHgS4FD94lw82rXes=", alt: "Event photo 5", aiHint: "award ceremony" },
+  { src: "https://media.istockphoto.com/id/953782406/photo/hand-of-touching-network-connecting-the-human-dots-icon-in-business-project-management.jpg?s=612x612&w=0&k=20&c=nGWbpiMU7vhRjuBUjgpHr9TPESOKaDOACC6nzb1pI_4=", alt: "Event photo 6", aiHint: "networking event" },
 ];
 
 export default function Gallery() {

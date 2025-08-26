@@ -2,17 +2,21 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { MotionDiv } from "@/components/shared/motion-div"
 
 const faculty = [
-  { name: "Dr. A. K. Sharma", role: "Faculty Advisor" },
-  { name: "Prof. S. B. Patil", role: "Co-Advisor" },
+  { name: "Prof.Nazish Khan", role: "ACM Member" },
+  { name: "Dr. Abdul Razzaque", role: "Faculty Sponser" },
+   { name: "Prof. Samina Anjum", role: "ACM Member" },
 ]
 
 const students = [
-  { name: "Rohan Verma", role: "Chairperson", initial: "RV" },
-  { name: "Priya Singh", role: "Vice Chairperson", initial: "PS" },
-  { name: "Amit Kumar", role: "Secretary", initial: "AK" },
-  { name: "Sneha Reddy", role: "Treasurer", initial: "SR" },
-  { name: "Vikram Rathod", role: "Web Master", initial: "VR" },
-  { name: "Anjali Desai", role: "Event Coordinator", initial: "AD" },
+  { name: "Ayan Sheikh", role: "Chairperson", initial: "RV" },
+  { name: "Danish Ansari", role: "Vice Chairperson", initial: "DA" },
+  { name: "Nikhat Ansari", role: "Secretary", initial: "NA" },
+  { name: "Sadeem Khatib", role: "Treasurer", initial: "SK" },
+  { name: "Tauqeer Khan", role: "Member", initial: "TK" },
+  { name: "Fatema Khan", role: "Member", initial: "FK" },
+  { name: "Asim Sheikh", role: "Member", initial: "TK" },
+  { name: "", role: "Member", initial: "" },
+
 ]
 
 export default function Team() {
@@ -47,7 +51,7 @@ export default function Team() {
               >
                 <div className="flex items-center gap-6 p-4 rounded-lg transition-all duration-300 hover:bg-primary/5 hover:shadow-lg hover:-translate-y-1">
                   <Avatar className="h-24 w-24 border-2 border-primary/20">
-                    <AvatarImage src={`https://placehold.co/100x100.png`} data-ai-hint="professional portrait" />
+                    <AvatarImage src={`https://acm-website-lime.vercel.app/_next/image?url=https%3A%2F%2Fgithub.com%2Ffaskey37%2Fcollege-website%2Fblob%2Fmain%2FR.jpg%3Fraw%3Dtrue&w=64&q=75`} data-ai-hint="professional portrait" />
                     <AvatarFallback>{member.name.split(" ").map(n => n[0]).join("")}</AvatarFallback>
                   </Avatar>
                   <div>
@@ -73,7 +77,7 @@ export default function Team() {
               >
                 <div className="text-center group">
                   <Avatar className="h-28 w-28 mx-auto shadow-md border-2 border-transparent transition-all group-hover:border-primary/50 group-hover:scale-105">
-                    <AvatarImage src={`https://placehold.co/100x100.png`} data-ai-hint="student portrait" />
+                    <AvatarImage src={`https://acm-website-lime.vercel.app/_next/image?url=https%3A%2F%2Fgithub.com%2Ffaskey37%2Fcollege-website%2Fblob%2Fmain%2FR.jpg%3Fraw%3Dtrue&w=64&q=75`} data-ai-hint="student portrait" />
                     <AvatarFallback>{member.initial}</AvatarFallback>
                   </Avatar>
                   <h4 className="mt-4 font-bold text-lg">{member.name}</h4>

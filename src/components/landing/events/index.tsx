@@ -7,7 +7,7 @@ const events = [
   {
     title: "Annual Hackathon 2024",
     description: "A 24-hour coding marathon where students build innovative solutions to real-world problems.",
-    image: "",
+    image: "https://imgs.search.brave.com/SO5cllVCFHJcczn2Lc44v4Wf_ZsSWkyOQWjKftIkAAY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saXZl/LWNzdS1ub3J0aHJp/ZGdlLnBhbnRoZW9u/c2l0ZS5pby9zaXRl/cy9kZWZhdWx0L2Zp/bGVzLzIwMjUtMDEv/VGVjaF9GZXN0X0V2/ZW50cy0yMDQ4eDEz/NjUucG5n",
     aiHint: "coding hackathon",
     date: "Oct 26-27, 2024",
     status: "Upcoming",
@@ -15,7 +15,7 @@ const events = [
   {
     title: "Workshop on AI & ML",
     description: "An interactive workshop covering the fundamentals of Artificial Intelligence and Machine Learning.",
-    image: "",
+    image: "https://imgs.search.brave.com/1yNfoH3jTnKh1oHR79xh-98-uHGdw4rrVMGovFWPls4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/Z3JhZGllbnQtYWkt/dGVtcGxhdGUtZGVz/aWduXzIzLTIxNTAz/ODAwMzUuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZCZ3PTc0MA",
     aiHint: "AI workshop",
     date: "Sep 15, 2024",
     status: "Upcoming",
@@ -23,7 +23,7 @@ const events = [
   {
     title: "Code-a-Thon '23",
     description: "Our flagship competitive programming event that saw over 200 participants.",
-    image: "",
+    image: "https://imgs.search.brave.com/SsRvChlMdiewZH9NPdaA76mvBFMgIp-6VIXBOwzYsUc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzdkLzE2/LzQwLzdkMTY0MDE0/N2Q0YWQ5MzMxMTMx/N2ZkZDlkNjU4YjVj/LmpwZw",
     aiHint: "programming competition",
     date: "Dec 05, 2023",
     status: "Past",
