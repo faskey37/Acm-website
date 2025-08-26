@@ -14,7 +14,7 @@ const students = [
   { name: "Sadeem Khatib", role: "Treasurer", initial: "SK" },
   { name: "Tauqeer Khan", role: "Member", initial: "TK" },
   { name: "Fatema Khan", role: "Member", initial: "FK" },
-  { name: "Asim Sheikh", role: "Member", initial: "TK" },
+  { name: "Asim Patel", role: "Member", initial: "AP" },
   { name: "", role: "Member", initial: "" },
 
 ]
